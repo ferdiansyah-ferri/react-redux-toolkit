@@ -3,6 +3,7 @@ import "../styles/LoginForm.css";
 import { FaRegEyeSlash } from "react-icons/fa";
 import LogoGoogle from "../assets/images/LogoGoogle.png";
 import { useNavigate } from "react-router-dom";
+const navigate = useNavigate();
 
 const LoginForm = () => {
   return (
@@ -32,7 +33,11 @@ const LoginForm = () => {
             <button className="Button-Login" type="submit">
               Masuk
             </button>
-            <button className="Button-LoginDaftar" type="submit">
+            <button
+              className="Button-LoginDaftar"
+              type="submit"
+              onClick={() => navigate("/register")}
+            >
               Daftar
             </button>
             <div className="Span-Horisontal">
