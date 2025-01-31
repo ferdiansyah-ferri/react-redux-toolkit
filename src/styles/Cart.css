@@ -1,0 +1,63 @@
+.Box-Cart {
+    width: 330px;
+    height: 420px;
+    padding: 20px;
+    /* margin: 10px; */
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.Box-Cart:hover {
+    cursor: pointer;
+}
+
+.Cart-Image {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.Cart-Title {
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.Cart-Description {
+    font-size: 0.8rem;
+    color: #6c6b6e;
+}
+
+.Cart-Komponent {
+    display: flex;
+    margin-top: 5px;
+}
+
+.Cart-List {
+    margin-left: 5px;
+}
+
+.Cart-Name {
+    font-weight: 500;
+}
+
+.Cart-NameRq {
+    font-size: 0.8rem;
+    color: #6c6b6e;
+}
+
+.Cart-Icon {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.Icon-Star {
+    display: flex;
+    color: gold;
+}
+
+.Cart-Harga {
+    color: rgb(62, 222, 62);
+    font-weight: 500;
+}

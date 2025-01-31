@@ -1,0 +1,163 @@
+.LoginForm {
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(238, 228, 212);
+}
+
+.Logo-Login {
+    width: 200px;
+    height: 50px;
+}
+
+.Navbar-Login {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #c8c3cf;
+    padding: 12px 120px 12px 120px;
+    position: fixed;
+    gap: 36px;
+    display: flex;
+    background: #fff;
+    align-items: center;
+    z-index: 1;
+}
+
+.Container-Login {
+    width: 400px;
+    height: 450px;
+    color: black;
+    position: absolute;
+    top: 20%;
+    padding: 10px;
+    background: #fff;
+
+
+}
+
+.Container-LoginHead {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.Login-h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+.Login-P {
+    font-size: 0.9rem;
+    color: #c8c3cf;
+    font-weight: 500;
+}
+
+.Form-Login {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+
+.Label-Login {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    font-weight: 300;
+
+
+}
+
+.Icon-Eye {
+    position: absolute;
+    right: 7%;
+    top: 44%;
+
+}
+
+.Span-Login {
+    color: red;
+}
+
+.Input-Login {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.Link-LupaPassword {
+    text-align: end;
+    font-size: 0.8rem;
+    margin: 5px 0 5px 0;
+}
+
+.Button-Login {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    background: rgb(62, 222, 62);
+    color: #fff;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.Button-LoginDaftar {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    color: #18c718;
+    background: rgb(173, 235, 178);
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+
+.Span-Horisontal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.Horisontal-Kiri,
+.Horisontal-Kanan {
+    width: 50%;
+    color: #c8c3cf;
+}
+
+
+.Span-AtauLogin {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+
+.Logo-Google {
+    width: 30px
+}
+
+.Span-Google {
+    margin-top: 3px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.Button-LoginGoogle {
+    width: 100%;
+    padding: 3px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
