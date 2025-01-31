@@ -3,9 +3,10 @@ import "../styles/LoginForm.css";
 import { FaRegEyeSlash } from "react-icons/fa";
 import LogoGoogle from "../assets/images/LogoGoogle.png";
 import { useNavigate } from "react-router-dom";
-const navigate = useNavigate();
 
 const LoginForm = () => {
+  const navigate = useNavigate();
+
   return (
     <>
       <div className="LoginForm">
@@ -30,7 +31,11 @@ const LoginForm = () => {
             <a href="" className="Link-LupaPassword">
               Lupa Password?
             </a>
-            <button className="Button-Login" type="submit">
+            <button
+              className="Button-Login"
+              type="submit"
+              onClick={() => navigate("/home")}
+            >
               Masuk
             </button>
             <button
